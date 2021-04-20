@@ -53,7 +53,7 @@ file_compl<-bind_rows(filetrain_compl, filetest_compl)
 names_columns<-colnames(file_compl)
 good<-grepl("mean|std", names_columns )
 good<-grepl("list|mean|std", names_columns )
-file_extract<-file_compl[good]
+file_extract<-file_compl[ ,good]
 
 ##Uses descriptive activity names to name the activities in the data set
 new_column <-file_extract$list_train_activities
