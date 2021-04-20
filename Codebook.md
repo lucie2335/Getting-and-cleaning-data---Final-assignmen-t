@@ -1,17 +1,12 @@
-**There are two data sets: tidydata1 and tidydata2.** \_\_ Only the
-second is posted\_\_ **They have the same variables, however tidy\_data2
-is a summarised version of tidy\_data1,** with the average of each
-variable for each activity and each subject.
-
-**Those two sets of data are the result of the tidying of a raw set of
-data available here:**
+**This data is the result of the tidying of a raw set of data available
+here:**
 <a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" class="uri">https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip</a>
 
 **The script used to tidy this raw data is run\_analysis.R,** joined in
 this repository. Please note that the raw data was divided in two sets:
 train & test, which are combined in the tidy data sets.
 
-The 81 variables of tidydata1 and tidydata2 are:
+The 81 variables are:
 
 1 - “activity”  
 There are 6 different activities: 1 WALKING 2 WALKING\_UPSTAIRS 3

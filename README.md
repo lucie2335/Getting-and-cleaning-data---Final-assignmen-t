@@ -1,15 +1,12 @@
-**There are two tidy data sets : tidydata1 and tidydata2.** \_\_ Only
-the second is posted\_\_ **They compiled measurements realised on 30
-volunteers during 6 different types of activities,** by the mean of a
-smartphone (Samsung Galaxy S II) on the waist. Using its embedded
-accelerometer and gyroscope, the experiment captured : - Triaxial
-acceleration from the accelerometer (total acceleration) and the
-estimated body acceleration. - Triaxial Angular velocity from the
-gyroscope. - A 561-feature vector with time and frequency domain
-variables.
+**The data set compiles measurements realised on 30 volunteers during 6
+different types of activities,** by the mean of a smartphone (Samsung
+Galaxy S II) on the waist. Using its embedded accelerometer and
+gyroscope, the experiment captured : - Triaxial acceleration from the
+accelerometer (total acceleration) and the estimated body acceleration.
+- Triaxial Angular velocity from the gyroscope. - A 561-feature vector
+with time and frequency domain variables.
 
-**The raw data used to create tidydata1 and tidy\_ata2 is available
-here:**
+The raw data used is available here:
 
 <a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" class="uri">https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip</a>
 
@@ -30,4 +27,4 @@ the activities At this point, tidydata1 is created.
 
 The script then: - creates a second, independent tidy data set with the
 average of each variable for each activity and each subject. At this
-point, tidydata2 is created.
+point, tidydata2 is created. It is the result
