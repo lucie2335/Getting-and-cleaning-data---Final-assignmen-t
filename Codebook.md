@@ -1,7 +1,7 @@
-**There are two data sets: tidydata1 and tidydata2.** **They have the
-same variables, however tidy\_data2 is a summarised version of
-tidy\_data1,** with the average of each variable for each activity and
-each subject.
+**There are two data sets: tidydata1 and tidydata2.** \_\_ Only the
+second is posted\_\_ **They have the same variables, however tidy\_data2
+is a summarised version of tidy\_data1,** with the average of each
+variable for each activity and each subject.
 
 **Those two sets of data are the result of the tidying of a raw set of
 data available here:**
